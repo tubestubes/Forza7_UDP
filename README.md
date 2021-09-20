@@ -1,7 +1,7 @@
 # Forza 7 Telemetry Receiver with Jupyter
 (c) William Kane 2021
 
-Python Script to revive date from Forza 7 with real-time graphs.
+Python Script to receive date from Forza 7 with real-time graphs.
 Intended to be used in a Jupyter Notebook (using Jupyter Lab or VSCode)
 
 ### How To Use
