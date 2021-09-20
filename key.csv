@@ -1,0 +1,86 @@
+Position,Dict Key,Type,Meaning
+0,On/Off,s32,On while in race - Off while not in race or in menus
+1,Time,u32,Current Time
+2,MaxRPM,f32,Max Engine RPM
+3,IdleRPM,f32,Engine Idle RPM
+4,RPM,f32,Currnet Engine RPM
+5,AccX,f32,Acceleration in X
+6,AccY,f32,Acceleration in y
+7,AccZ,f32,Acceleration in z
+8,VelX,f32,Velocity in X
+9,VelY,f32,Velocity in Y
+10,VelZ,f32,Velocity in Z
+11,RotX,f32,Rotation in X
+12,RotY,f32,Rotation in Y
+13,RotZ,f32,Rotation in Z
+14,Yaw,f32,Yaw
+15,Pitch,f32,Pitch
+16,Roll,f32,Roll
+17,NSusFL,f32,Normalised suspension travel: 0 - longest - 1 shortest: Front right
+18,NSusFR,f32,
+19,NSusRL,f32,
+20,NSusRR,f32,
+21,SlipFL,f32,Tire Slip Ratio : Front Right
+22,SlipFR,f32,
+23,SlipRL,f32,
+24,SlipRR,f32,
+25,WSpeedFL,f32,Wheel Roation Speed: Front Right
+26,WSpeedFR,f32,
+27,WSpeedRL,f32,
+28,WSpeedRR,f32,
+29,OnRumFL,s32,"Wheel on Rumle Strip? 1 - yes, 0 - no: Front right"
+30,OnRumFR,s32,
+31,OnRumRL,s32,
+32,OnRumRR,s32,
+33,PuddleFL,f32,Wheel Puddle Depth: 0 - 1 (deepest): Front right
+34,PuddleFR,f32,
+35,PuddleRL,f32,
+36,PuddleRR,f32,
+37,sRumFL,f32,Surface Rumble for force feedback: front right
+38,sRumFR,f32,
+39,sRumRL,f32,
+40,sRumRR,f32,
+41,SAngFL,f32,"Tire normalized slip angle, = 0 means 100% grip and |angle| > 1.0 means loss of grip."
+42,SAngFR,f32,
+43,SAngRL,f32,
+44,SAngRR,f32,
+45,CSlipFL,f32,"Tire normalized combined slip, = 0 means 100% grip and |slip| > 1.0 means loss of grip."
+46,CSlipFR,f32,
+47,CSlipRL,f32,
+48,CSlipRR,f32,
+49,SusFL,f32,Actual suspension travel in meters
+50,SusFR,f32,
+51,SusRL,f32,
+52,SusRR,f32,
+53,Car,s32,Car ID
+54,Class,s32,"D = 0, X = 7"
+55,PI,s32,100-999
+56,DriveTrain,s32,"0= FWD, 1 = RWD, 2 = AWD"
+57,NCylinders,s32,Number of cylinders
+58,X,f32,
+59,Y,f32,
+60,Z,f32,
+61,Speed,f32,Car Speed in Meters/Second
+62,Power,f32,Watts
+63,Torque,f32,Newton Meters
+64,TempFL,f32,Tire Temps
+65,TempFR,f32,
+66,TempRL,f32,
+67,TempRR,f32,
+68,Boost,f32,
+69,Fuel,f32,
+70,Dist,f32,
+71,BestLap,f32,
+72,LastLap,f32,
+73,CurrentLap,f32,
+74,RaceTime,f32,
+75,Lap,u16,
+76,Pos,u8,
+77,Acc,u8,
+78,Brake,u8,
+79,Clutch,u8,
+80,Handbreak,u8,
+81,Gear,u8,
+82,Steer,s8,
+83,NLine,s8,
+84,AiBreak,s8,
