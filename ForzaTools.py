@@ -2,14 +2,14 @@
 #  (c) William Kane 2021
 #
 ### INSTRUCTIONS
-#   Point your games Date Out to this IP of this machine (you can get this from ipconfig)
-#   Set the port in game to match this port (you can set this to be anything)
+#   Point your game's Data Out to this IP of this machine (you can get this from ipconfig on windows)
+#   Set the port in game to match this port below (you can set this to be anything)
 PORT = 6969
 #
 ### API
 #   FUNC: receive(port)
 #       USAGE: Call with port = PORT
-#       RETURNS: One packet of telemetry as a dict
+#       RETURNS: One packet of telemetry as a dict with all parameters
 #
 #   FUNC: receive_one(port, param)
 #       USAGE: Call with port = PORT, param = 'param' where 'param' is a STRING of the paramater you want
